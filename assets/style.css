@@ -1,0 +1,456 @@
+#name {
+	background-color: #4aaaa5;
+	letter-spacing: 1.5px;
+	color:#ffffff;
+	width: 336px;
+	font-size: 32px;
+	font-weight: bold;
+	padding: 25px 25px 25px 0px;
+}
+
+.links{
+	position:relative;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	top: -50px;
+}
+
+#l1, #l2 {
+	font-size:20px;
+	height:20px;
+}
+
+a:link, a:visited {
+	text-decoration:none;
+	color: #777777;
+}
+
+a:hover, a:active {
+	background-color:#4aaaa5;
+	text-decoration:none;
+	color:#ffffff;
+}
+
+#l1 {
+	border-right:1px solid;
+	border-color: #777777;
+	padding:0px 20px 0px 20px;
+}
+
+#l2 {
+	padding: 0px 20px 0px 20px;
+}
+
+body {
+	background-image: url("../images/bkg.png");
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#wrap{ 
+	 width: 960px;
+	 margin-left:40px;
+ }
+
+header{
+	background-color:#ffffff;
+	color:#777777;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
+	height: 80px;
+	width: 100%;
+	border-bottom: 3px solid lightgrey;
+	padding-left:20px;
+}
+
+section {
+	border: 1px solid lightgrey;
+	clear:both;
+	width: 650px;
+	background-color:#ffffff;
+	float:left;
+	max-height:875px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	margin-left:20px;
+}
+
+h1 {
+	letter-spacing: 1.5px;
+	color:#4aaaa5;
+	font-size: 32px;
+	border-bottom:1px solid lightgrey;
+	font-weight: bold;
+	margin-left:20px;
+	margin-right:20px;
+	padding: 40px 20px 40px 44px;
+}
+
+#bio {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	font-size:24px;
+	line-height: 36px;
+	padding: 20px 20px 20px 60px;
+}
+
+.mepic {
+	max-width: 200px;
+	max-height: 200px;
+	float:left;
+	padding: 20px 20px 20px 60px;
+	margin-right: 20px;
+}
+
+#ports1, #ports2, #ports3, #ports4, #ports5 {
+	max-width: 250px;
+	max-height: 250px;
+	float:left;
+	margin:20px 40px 20px 40px;
+	position:relative;
+	z-index: 1;
+}
+
+.porty1, .porty2, .porty3, .porty4, .porty5 {
+	background-color:#4aaaa5;
+	color:#ffffff;
+	font-size:24px;
+	width: 250px;
+	height:30px;
+	float:inherit;
+	padding:20px 0px 15px 0px;
+	text-align:center;
+	position:relative;
+	z-index: 2;
+}
+
+.porty1{
+	left: -290px;
+    top: 130px;
+}
+
+#ports2{
+	top:-228px;
+	left: 290px;
+}
+
+.porty2 {
+	top:-98px;
+}
+
+#ports3 {
+	top: -240px;
+}
+
+.porty3 {
+	top: -108px;
+	left: -290px;
+}
+
+#ports4 {
+	top: -468px;
+	left: 291px;
+}
+
+.porty4 {
+	top: -337px;
+	left: 1px;
+}
+
+#ports5 {
+	top: -479px;
+}
+
+.porty5 {
+	top: -351px;
+	left: -290px;
+}
+form {
+	margin: 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	font-size:24px;
+	line-height: 36px;
+	padding: 20px 20px 20px 40px;
+}
+
+
+#button {
+	background-color:#4aaaa5;
+	border:none;
+	color:#ffffff;
+	font-size: 18px;
+	padding:10px 20px 10px 20px;
+	margin-top:20px;
+}
+
+input, #message {
+	width:100%;
+	border:1px #d6d6d6 solid;
+	font-size:18px;
+	padding:6px 0px 6px 20px;
+	color:#d6d6d6;
+}
+
+#message {
+	height:200px;
+}
+
+aside {
+	margin-top: 20px;
+	margin-left: 30px;
+	width: 270px;
+	height: 280px;
+	background-color: #ffffff;
+	float:left;
+	border: 1px solid lightgrey;
+}
+
+h2 {
+	letter-spacing: 1.5px;
+	color:#4aaaa5;
+	font-size: 24px;
+	border-bottom:1px solid lightgrey;
+	font-weight: bold;
+	margin-left:20px;
+	margin-right:20px;
+	padding:40px 0px 40px 0px;
+}
+
+figure {
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 40px 0px 40px 0px;
+}
+
+.linkpic {
+	max-height: 70px;
+	max-width: 70px;
+
+}
+
+footer {
+	background-color:#666666;
+	width: 100%;
+	color: #ffffff;
+	clear:both;
+	text-align:center;
+	border-top:solid 5px #4aaaa5;
+	padding:40px 0px 40px 0px;
+}
+
+@media screen and (max-width: 980px){
+	.links {
+		left:250px;
+	}
+
+	section {
+		width:55%;
+		max-height:100%;
+	}
+
+	#bio {
+		padding-left:20px;
+	}
+
+	.mepic {
+		max-width: 450px;
+		max-height: 450px;
+		margin: 20px 20px 20px 20px;
+		padding-left:20px;
+	}
+	h1 {
+		margin-left:40px; 
+		margin-right:40px;
+		padding-left: 0px;
+	}
+	#ports1, #ports2, #ports3, #ports4, #ports5 {
+		max-width:450px;
+		max-height:450px;
+		top:0px;
+		left:0px;
+	}
+	.porty1, .porty2, .porty3, .porty4, .porty5 {
+		width:450px;
+		top:-95px;
+		left:40px;
+	}
+
+	form {
+		padding-left: 20px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	#name {
+		font-size:28px;
+		max-height:100%;
+		width:240px;
+		padding: 20px;
+	}
+	header{
+		height:69px;
+	}
+	.links {
+		left:174px;
+		top:-40px;
+	}
+	#l1,#l2 {
+		font-size: 18px;
+	}
+	aside {
+		clear:both;
+		width:90%;
+		margin-left:20px;
+		max-height: 260px;
+		margin-bottom:40px;
+	}
+	#wrap {
+		max-width:768px;
+		margin-top:30px;
+	}
+	.mepic {
+		max-height:250px;
+		max-width:350px;
+	}
+	section{
+		width:90%;
+		margin-bottom:20px;
+	}
+	h1 {
+		font-size:28px;
+		padding:30px 20px 30px 0px;
+	}
+	#bio {
+		font-size:20px;
+		padding:20px;
+		line-height:30px;
+	}
+	#ports1, #ports2, #ports3, #ports4, #ports5 {
+		max-width:300px;
+		max-height:250px;
+		top:0px;
+		left:0px;
+	}
+	.porty1, .porty2, .porty3, .porty4, .porty5 {
+		width:300px;
+	}
+	.porty1 {
+		top:171px;
+	}
+	.porty2, .porty4 {
+		left:-15px;
+	}
+	#ports2, #ports4 {
+		left:325px;
+	}
+	#ports2 {
+		top:-265px;
+	}
+	#ports3, #ports4{
+		top:-266px;
+	}
+	#ports4 {
+		top:-530px;
+	}
+	.porty1, .porty3, .porty5 {
+		left:-340px;
+	}
+	.porty4 {
+		top:-361px;
+	}
+	#ports5{
+		top:-530px;
+	}
+	.porty5{
+		top:-366px;
+	}
+
+}
+
+@media screen and (max-width: 640px){
+	#name {
+		font-size:24px;
+		width:100%;
+		padding: 20px 0px 20px 0px;
+		margin-left:0px;
+	}
+
+	header{
+		height:100px;
+		margin-left:0px;
+		padding:0px;
+	}
+
+	.links {
+		top:12px;
+		left:0px;
+	}
+
+	#l1,#l2 {
+		font-size: 14px;
+	}
+
+	#l1 {
+	padding:0px 80px 0px 80px;
+	}
+
+	#l2 {
+	padding: 0px 80px 0px 80px;
+	}
+
+	#wrap {
+		max-width:640px;
+		margin-top:30px;
+	}
+
+	.mepic {
+		max-height:300px;
+		max-width:300px;
+		padding:0px 20px 0px 20px
+	}
+
+	aside {
+		clear:both;
+		width:90%;
+		margin-left:20px;
+		max-height: 180px;
+		margin-bottom:40px;
+	}
+	
+	section{
+		width:90%;
+		margin-bottom:20px;
+	}
+
+	h2 {
+		font-size:18px;
+		padding: 20px 0px 20px 20px;
+	}
+
+	h1 {
+		font-size:24px;
+		padding:20px 20px 20px 0px;
+	}
+	#bio {
+		font-size:14px;
+		padding:20px 20px 20px 40px;
+		line-height:21px;
+	}
+	figure{
+		padding:20px 0px 20px 20px;
+	}
+	#ports1, #ports2, #ports3, #ports4, #ports5 {
+		max-width:500px;
+		max-height:500px;
+		padding-left:0px;
+		top:0px;
+		left:0px;
+	}
+	.porty1, .porty2, .porty3, .porty4, .porty5 {
+		width:500px;
+		top:-95px;
+		left:40px;
+	}
+	form{
+		padding-left:20px;
+	}
+}
